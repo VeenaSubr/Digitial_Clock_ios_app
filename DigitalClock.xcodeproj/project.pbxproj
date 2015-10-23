@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031325D21BDAEC6F00C525AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031325D11BDAEC6F00C525AB /* AppDelegate.swift */; };
+		031325D41BDAEC6F00C525AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031325D31BDAEC6F00C525AB /* ViewController.swift */; };
+		031325D71BDAEC6F00C525AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031325D51BDAEC6F00C525AB /* Main.storyboard */; };
+		031325D91BDAEC6F00C525AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031325D81BDAEC6F00C525AB /* Assets.xcassets */; };
+		031325DC1BDAEC6F00C525AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031325DA1BDAEC6F00C525AB /* LaunchScreen.storyboard */; };
+		031325E71BDAEC6F00C525AB /* DigitalClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031325E61BDAEC6F00C525AB /* DigitalClockTests.swift */; };
+		031325F21BDAEC6F00C525AB /* DigitalClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031325F11BDAEC6F00C525AB /* DigitalClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		031325E31BDAEC6F00C525AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 031325C61BDAEC6E00C525AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031325CD1BDAEC6F00C525AB;
+			remoteInfo = DigitalClock;
+		};
+		031325EE1BDAEC6F00C525AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 031325C61BDAEC6E00C525AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031325CD1BDAEC6F00C525AB;
+			remoteInfo = DigitalClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031325CE1BDAEC6F00C525AB /* DigitalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031325D11BDAEC6F00C525AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		031325D31BDAEC6F00C525AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		031325D61BDAEC6F00C525AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031325D81BDAEC6F00C525AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031325DB1BDAEC6F00C525AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031325DD1BDAEC6F00C525AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031325E21BDAEC6F00C525AB /* DigitalClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031325E61BDAEC6F00C525AB /* DigitalClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockTests.swift; sourceTree = "<group>"; };
+		031325E81BDAEC6F00C525AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031325ED1BDAEC6F00C525AB /* DigitalClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031325F11BDAEC6F00C525AB /* DigitalClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockUITests.swift; sourceTree = "<group>"; };
+		031325F31BDAEC6F00C525AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031325CB1BDAEC6F00C525AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031325DF1BDAEC6F00C525AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031325EA1BDAEC6F00C525AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031325C51BDAEC6E00C525AB = {
+			isa = PBXGroup;
+			children = (
+				031325D01BDAEC6F00C525AB /* DigitalClock */,
+				031325E51BDAEC6F00C525AB /* DigitalClockTests */,
+				031325F01BDAEC6F00C525AB /* DigitalClockUITests */,
+				031325CF1BDAEC6F00C525AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031325CF1BDAEC6F00C525AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031325CE1BDAEC6F00C525AB /* DigitalClock.app */,
+				031325E21BDAEC6F00C525AB /* DigitalClockTests.xctest */,
+				031325ED1BDAEC6F00C525AB /* DigitalClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031325D01BDAEC6F00C525AB /* DigitalClock */ = {
+			isa = PBXGroup;
+			children = (
+				031325D11BDAEC6F00C525AB /* AppDelegate.swift */,
+				031325D31BDAEC6F00C525AB /* ViewController.swift */,
+				031325D51BDAEC6F00C525AB /* Main.storyboard */,
+				031325D81BDAEC6F00C525AB /* Assets.xcassets */,
+				031325DA1BDAEC6F00C525AB /* LaunchScreen.storyboard */,
+				031325DD1BDAEC6F00C525AB /* Info.plist */,
+			);
+			path = DigitalClock;
+			sourceTree = "<group>";
+		};
+		031325E51BDAEC6F00C525AB /* DigitalClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				031325E61BDAEC6F00C525AB /* DigitalClockTests.swift */,
+				031325E81BDAEC6F00C525AB /* Info.plist */,
+			);
+			path = DigitalClockTests;
+			sourceTree = "<group>";
+		};
+		031325F01BDAEC6F00C525AB /* DigitalClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				031325F11BDAEC6F00C525AB /* DigitalClockUITests.swift */,
+				031325F31BDAEC6F00C525AB /* Info.plist */,
+			);
+			path = DigitalClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031325CD1BDAEC6F00C525AB /* DigitalClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031325F61BDAEC6F00C525AB /* Build configuration list for PBXNativeTarget "DigitalClock" */;
+			buildPhases = (
+				031325CA1BDAEC6F00C525AB /* Sources */,
+				031325CB1BDAEC6F00C525AB /* Frameworks */,
+				031325CC1BDAEC6F00C525AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalClock;
+			productName = DigitalClock;
+			productReference = 031325CE1BDAEC6F00C525AB /* DigitalClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		031325E11BDAEC6F00C525AB /* DigitalClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031325F91BDAEC6F00C525AB /* Build configuration list for PBXNativeTarget "DigitalClockTests" */;
+			buildPhases = (
+				031325DE1BDAEC6F00C525AB /* Sources */,
+				031325DF1BDAEC6F00C525AB /* Frameworks */,
+				031325E01BDAEC6F00C525AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031325E41BDAEC6F00C525AB /* PBXTargetDependency */,
+			);
+			name = DigitalClockTests;
+			productName = DigitalClockTests;
+			productReference = 031325E21BDAEC6F00C525AB /* DigitalClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		031325EC1BDAEC6F00C525AB /* DigitalClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031325FC1BDAEC6F00C525AB /* Build configuration list for PBXNativeTarget "DigitalClockUITests" */;
+			buildPhases = (
+				031325E91BDAEC6F00C525AB /* Sources */,
+				031325EA1BDAEC6F00C525AB /* Frameworks */,
+				031325EB1BDAEC6F00C525AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031325EF1BDAEC6F00C525AB /* PBXTargetDependency */,
+			);
+			name = DigitalClockUITests;
+			productName = DigitalClockUITests;
+			productReference = 031325ED1BDAEC6F00C525AB /* DigitalClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031325C61BDAEC6E00C525AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Veena;
+				TargetAttributes = {
+					031325CD1BDAEC6F00C525AB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					031325E11BDAEC6F00C525AB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 031325CD1BDAEC6F00C525AB;
+					};
+					031325EC1BDAEC6F00C525AB = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 031325CD1BDAEC6F00C525AB;
+					};
+				};
+			};
+			buildConfigurationList = 031325C91BDAEC6E00C525AB /* Build configuration list for PBXProject "DigitalClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031325C51BDAEC6E00C525AB;
+			productRefGroup = 031325CF1BDAEC6F00C525AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031325CD1BDAEC6F00C525AB /* DigitalClock */,
+				031325E11BDAEC6F00C525AB /* DigitalClockTests */,
+				031325EC1BDAEC6F00C525AB /* DigitalClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031325CC1BDAEC6F00C525AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031325DC1BDAEC6F00C525AB /* LaunchScreen.storyboard in Resources */,
+				031325D91BDAEC6F00C525AB /* Assets.xcassets in Resources */,
+				031325D71BDAEC6F00C525AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031325E01BDAEC6F00C525AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031325EB1BDAEC6F00C525AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031325CA1BDAEC6F00C525AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031325D41BDAEC6F00C525AB /* ViewController.swift in Sources */,
+				031325D21BDAEC6F00C525AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031325DE1BDAEC6F00C525AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031325E71BDAEC6F00C525AB /* DigitalClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031325E91BDAEC6F00C525AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031325F21BDAEC6F00C525AB /* DigitalClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		031325E41BDAEC6F00C525AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031325CD1BDAEC6F00C525AB /* DigitalClock */;
+			targetProxy = 031325E31BDAEC6F00C525AB /* PBXContainerItemProxy */;
+		};
+		031325EF1BDAEC6F00C525AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031325CD1BDAEC6F00C525AB /* DigitalClock */;
+			targetProxy = 031325EE1BDAEC6F00C525AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		031325D51BDAEC6F00C525AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031325D61BDAEC6F00C525AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		031325DA1BDAEC6F00C525AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031325DB1BDAEC6F00C525AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031325F41BDAEC6F00C525AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		031325F51BDAEC6F00C525AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031325F71BDAEC6F00C525AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DigitalClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.home.veena.DigitalClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		031325F81BDAEC6F00C525AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DigitalClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.home.veena.DigitalClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		031325FA1BDAEC6F00C525AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DigitalClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.home.veena.DigitalClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalClock.app/DigitalClock";
+			};
+			name = Debug;
+		};
+		031325FB1BDAEC6F00C525AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DigitalClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.home.veena.DigitalClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalClock.app/DigitalClock";
+			};
+			name = Release;
+		};
+		031325FD1BDAEC6F00C525AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DigitalClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.home.veena.DigitalClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DigitalClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		031325FE1BDAEC6F00C525AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DigitalClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.home.veena.DigitalClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DigitalClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031325C91BDAEC6E00C525AB /* Build configuration list for PBXProject "DigitalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031325F41BDAEC6F00C525AB /* Debug */,
+				031325F51BDAEC6F00C525AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031325F61BDAEC6F00C525AB /* Build configuration list for PBXNativeTarget "DigitalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031325F71BDAEC6F00C525AB /* Debug */,
+				031325F81BDAEC6F00C525AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		031325F91BDAEC6F00C525AB /* Build configuration list for PBXNativeTarget "DigitalClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031325FA1BDAEC6F00C525AB /* Debug */,
+				031325FB1BDAEC6F00C525AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		031325FC1BDAEC6F00C525AB /* Build configuration list for PBXNativeTarget "DigitalClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031325FD1BDAEC6F00C525AB /* Debug */,
+				031325FE1BDAEC6F00C525AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031325C61BDAEC6E00C525AB /* Project object */;
+}
